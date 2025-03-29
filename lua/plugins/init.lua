@@ -15,7 +15,7 @@ return {
   	"nvim-treesitter/nvim-treesitter",
   	opts = {
   		ensure_installed = {
-  			"vim", "lua", "vimdoc", "html", "css", "go", "gdscript", "gdshader", "godot_resource",
+  			"vim", "lua", "vimdoc", "html", "css", "go", "gdscript", "gdshader", "godot_resource", "bash",
   		},
       auto_install = true,
       indent = { enable = false }
@@ -104,5 +104,15 @@ return {
         show_help = "<f1>",
       },
     },
+  },
+
+  {
+  "iamcco/markdown-preview.nvim",
+  cmd = { "MarkdownPreviewToggle", "MarkdownPreview", "MarkdownPreviewStop" },
+  build = "cd app && yarn install",
+  init = function()
+    vim.g.mkdp_filetypes = { "markdown" }
+  end,
+  ft = { "markdown" },
   },
 }

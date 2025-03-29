@@ -9,6 +9,9 @@ local servers = {
   "cssls",
   "gopls",
   "ts_ls",
+  "docker_compose_language_service",
+  "dockerls",
+  "bashls",
 }
 local nvlsp = require "nvchad.configs.lspconfig"
 
