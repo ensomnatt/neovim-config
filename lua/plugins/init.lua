@@ -52,4 +52,14 @@ return {
         { "<leader>lg", "<cmd>LazyGit<cr>", desc = "LazyGit" }
     }
   },
+
+  {
+    "nvzone/volt",
+    lazy = true,
+  },
+
+  {
+    "nvzone/minty",
+    cmd = { "Shades", "Huefy" },
+  },
 }
