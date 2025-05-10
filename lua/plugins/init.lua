@@ -21,7 +21,9 @@ return {
   		ensure_installed = {
   			"vim", "lua", "vimdoc",
         "html", "css", "go", "javascript", "typescript",
-        "bash", "hyprlang"
+        "bash", "hyprlang", "dockerfile", "json",
+        "markdown", "rasi", "todotxt", "toml",
+        "yaml"
   		},
   	},
   },
