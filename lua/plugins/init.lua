@@ -23,7 +23,7 @@ return {
         "html", "css", "go", "javascript", "typescript",
         "bash", "hyprlang", "dockerfile", "json",
         "markdown", "rasi", "todotxt", "toml",
-        "yaml"
+        "yaml", "nix"
   		},
   	},
   },
